@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {RoomContext} from '../../context';
 import { Link } from 'react-router-dom';
-import Hero from '../Hero';
 import Banner from '../Banner';
 import styled from 'styled-components';
 
@@ -34,7 +33,7 @@ export class SingleRoom extends Component {
                 </div>
             )
         }
-        const {breakfast,capacity,description,extras,featured,id,images,name,pets,price,size,slug,type} = room;
+        const {breakfast,capacity,description,extras,images,name,pets,price,size} = room;
         const [disImg, ...restImg] = images;
         return (
             <React.Fragment>
