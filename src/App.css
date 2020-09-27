@@ -51,6 +51,14 @@ body {
   padding: 1rem;
   letter-spacing: var(--mainSpacing);
 }
+.footer{
+  width: 100%;
+  background-color: var(--primaryColor);
+  color: var(--mainWhite);
+  text-align: center;
+  letter-spacing: var(--mainSpacing);
+  padding: .5rem 0;
+}
 
 /* Hero */
 

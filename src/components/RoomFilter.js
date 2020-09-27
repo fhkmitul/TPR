@@ -13,7 +13,7 @@ function RoomsFilter({room}) {
     
     let types = getUnique(room, 'type');
     types = ['all',...types];
-    types = types.map((item, index) => {
+    types = types.map((item, index) => { 
         return(
             <option value ={item} key={index}>
                 {item}

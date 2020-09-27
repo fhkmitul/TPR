@@ -18,7 +18,7 @@ export class Navbars extends Component {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mr-auto">
                         <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/rooms">Rooms</Nav.Link>
+                        <Nav.Link href ="/rooms">Rooms</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                     </div>
